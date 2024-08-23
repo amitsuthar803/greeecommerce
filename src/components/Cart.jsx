@@ -35,7 +35,7 @@ const Cart = () => {
                 />
                 <div>
                   <h2 className="text-lg font-semibold">{item.name}</h2>
-                  <p className="text-gray-500">${item.price.toFixed(2)}</p>
+                  <p className="text-gray-500">₹{item.price.toFixed(2)}</p>
                 </div>
               </div>
               <div className="flex items-center space-x-2">
